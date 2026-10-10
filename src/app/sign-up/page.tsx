@@ -70,8 +70,11 @@ const SignUpPage = () => {
           <button type="submit" className="btn bg-emerald-600 hover:bg-emerald-700 text-white w-full">অ্যাকাউন্ট তৈরি করুন</button>
         </fieldset>
       </form>
-      <button onClick={handleGoogleSignUp} className="btn">Sign In With Google</button>
-      <button onClick={handleGitHubSignIn} className="btn">Sign In With GitHub</button>
+      <p>অথবা</p>
+      <div className='flex items-center flex-cols gap-5'>
+        <button onClick={handleGoogleSignUp} className="btn">Sign In With Google</button>
+        <button onClick={handleGitHubSignIn} className="btn">Sign In With GitHub</button>
+      </div>
     </div>
   );
 };
