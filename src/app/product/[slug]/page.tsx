@@ -111,7 +111,7 @@ const ProductDetails = async ({
       ? Math.max(...product.markets.map((market) => market.max))
       : 0;
 
-  // প্রতিটি বাজারের সর্বনিম্ন ও সর্বোচ্চ দামের মধ্যবর্তী দাম
+
   const averagePrice =
     product.markets.length > 0
       ? product.markets.reduce(
