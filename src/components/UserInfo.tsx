@@ -20,14 +20,14 @@ const UserInfo = () => {
                         <div className="ring-primary ring-offset-base-100 w-10 rounded-full ring-2 ring-offset-2">
                             <Image alt="Tailwind-CSS-Avatar-component"
                                 width={20} height={20}
-                                src={user?.image as string || "https://cdn.vectorstock.com/i/1000v/51/87/student-avatar-user-profile-icon-vector-47025187.jpg"} />
+                                src={user?.image as string || "/nafis.avif"} />
                         </div>
                     </div>
                     </Link>
                     <h2>{user?.name}</h2>
                     <button onClick={handleSignOut} className='btn btn-accent btn-xs'>SignOut</button>
                 </div> :
-                    <div className=" items-center gap-2 lg:flex">
+                    <div className="justify-between  items-center gap-2 flex">
                         <Link
                             href="/sign-in"
                             className="rounded-full border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100"
