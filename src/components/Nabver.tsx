@@ -92,7 +92,7 @@ export default function Navbar() {
         <nav className="hidden items-center gap-1 overflow-x-auto pb-3 lg:flex">
           <Link
             href="/"
-            className="shrink-0 rounded-full bg-[#05893E] px-4 py-2 text-sm font-semibold text-gray-900"
+            className="shrink-0 rounded-full bg-[#05893E] px-4 py-2 text-sm font-semibold text-white"
           >
             হোম
           </Link>
@@ -122,7 +122,7 @@ export default function Navbar() {
               <Link
                 href="/"
                 onClick={() => setMenuOpen(false)}
-                className="rounded-xl bg-[#05893E] px-3 py-3 text-center text-sm font-semibold text-gray-900"
+                className="rounded-xl bg-[#05893E] px-3 py-3 text-center text-sm font-semibold text-white"
               >
                 হোম
               </Link>

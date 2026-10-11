@@ -30,14 +30,14 @@ const UserInfo = () => {
                     <div className="justify-between  items-center gap-2 flex">
                         <Link
                             href="/sign-in"
-                            className="rounded-full border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100"
+                            className="rounded-full border border-gray-300 px-5 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-100"
                         >
                             সাইন ইন
                         </Link>
 
                         <Link
                             href="/sign-up"
-                            className="rounded-full bg-[#05893E] px-5 py-2 text-sm font-semibold text-gray-900 transition "
+                            className="rounded-full bg-[#05893E] px-5 py-2 text-sm font-semibold text-white transition "
                         >
                             সাইন আপ
                         </Link>
