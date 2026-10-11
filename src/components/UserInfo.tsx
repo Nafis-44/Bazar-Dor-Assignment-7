@@ -27,7 +27,7 @@ const UserInfo = () => {
                     <h2>{user?.name}</h2>
                     <button onClick={handleSignOut} className='btn btn-accent btn-xs'>SignOut</button>
                 </div> :
-                    <div className="hidden items-center gap-2 lg:flex">
+                    <div className=" items-center gap-2 lg:flex">
                         <Link
                             href="/sign-in"
                             className="rounded-full border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-100"

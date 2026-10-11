@@ -6,13 +6,13 @@ const Hero = () => {
     
     const today = new Date();
 
-    // const banglaDate = new Intl.DateTimeFormat("bn-BD", {
-    //     weekday: "long",
-    //     day: "numeric",
-    //     month: "long",
-    //     year: "numeric",
-    //     timeZone: "Asia/Dhaka",
-    // }).format(today);
+    const banglaDate = new Intl.DateTimeFormat("bn-BD", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        timeZone: "Asia/Dhaka",
+    }).format(today);
 
     return (
         <section className="w-full bg-white py-6 sm:py-8 lg:py-10">
@@ -31,8 +31,8 @@ const Hero = () => {
 
 
                                 <p className="mt-0.5 text-[11px] font-medium text-green-700 sm:text-xs">
-                                    {/* {banglaDate} */}
-                                    মঙ্গলবার, ৬ অক্টোবর, ২০২৬
+                                    {banglaDate}
+                                   
                                 </p>
 
                             </div>

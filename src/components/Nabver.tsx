@@ -30,7 +30,7 @@ export default function Navbar() {
 
         const data = await response.json();
 
-        // API response সরাসরি array হলে সেটি ব্যবহার করবে
+        
         setCategories(Array.isArray(data) ? data : data.data ?? []);
       } catch (error) {
         console.error("Category API Error:", error);
@@ -74,7 +74,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          <UserInfo />
+          <div className="hidden lg:flex"><UserInfo /></div>
 
           {/* Mobile menu button */}
           <button
