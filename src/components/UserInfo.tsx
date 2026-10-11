@@ -37,7 +37,7 @@ const UserInfo = () => {
 
                         <Link
                             href="/sign-up"
-                            className="rounded-full bg-green-400 px-5 py-2 text-sm font-semibold text-gray-900 transition "
+                            className="rounded-full bg-[#05893E] px-5 py-2 text-sm font-semibold text-gray-900 transition "
                         >
                             সাইন আপ
                         </Link>

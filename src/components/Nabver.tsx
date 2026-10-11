@@ -55,12 +55,12 @@ export default function Navbar() {
         {/* Logo and account links */}
         <div className="flex min-h-19 items-center justify-between gap-3">
           <Link href="/" className="flex shrink-0 items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-green-100">
+            <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-[#05893E]">
               <Image
                 src="/logo-icon.png"
                 alt="বাজার দর"
-                width={44}
-                height={44}
+                width={20}
+                height={20}
                 className="h-full w-full object-contain"
                 priority
               />
@@ -92,7 +92,7 @@ export default function Navbar() {
         <nav className="hidden items-center gap-1 overflow-x-auto pb-3 lg:flex">
           <Link
             href="/"
-            className="shrink-0 rounded-full bg-green-400 px-4 py-2 text-sm font-semibold text-gray-900"
+            className="shrink-0 rounded-full bg-[#05893E] px-4 py-2 text-sm font-semibold text-gray-900"
           >
             হোম
           </Link>
@@ -122,7 +122,7 @@ export default function Navbar() {
               <Link
                 href="/"
                 onClick={() => setMenuOpen(false)}
-                className="rounded-xl bg-green-300 px-3 py-3 text-center text-sm font-semibold text-gray-900"
+                className="rounded-xl bg-[#05893E] px-3 py-3 text-center text-sm font-semibold text-gray-900"
               >
                 হোম
               </Link>
