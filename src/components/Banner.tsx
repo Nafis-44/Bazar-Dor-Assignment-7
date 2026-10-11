@@ -51,7 +51,7 @@ const Hero = () => {
                             <div className="mt-6">
                                 <Link
                                     href="#সব-পণ্য"
-                                    className="inline-flex items-center justify-center rounded-lg bg-[#38B879] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-[#2fa56b] sm:px-6"
+                                    className="inline-flex items-center justify-center rounded-lg bg-[#05893E] px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:bg-[#2fa56b] sm:px-6"
                                 >
                                     সব পণ্য দেখুন
 
